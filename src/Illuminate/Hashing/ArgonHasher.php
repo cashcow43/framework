@@ -26,7 +26,7 @@ class ArgonHasher extends AbstractHasher implements HasherContract
      *
      * @var int
      */
-    protected $threads = 2;
+    protected $threads = 1;
 
     /**
      * Indicates whether to perform an algorithm check.
